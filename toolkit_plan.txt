@@ -1,0 +1,29 @@
+WEEK 8 FINAL PROJECT: PERSONAL MINI-TOOLKIT PLAN
+
+TOOLS
+1. To-Do List: Lets the user add, view, and remove tasks while the program is running.
+   Concepts: while loop, if/elif/else, changing list (append and pop), for loop, enumerate, f-strings, input validation.
+
+2. Simple Calculator: Performs addition, subtraction, multiplication, or division on two numbers.
+   Concepts: conditionals, try/except, input, f-strings, arithmetic, division-by-zero check.
+
+3. Number Guessing Game: Asks the user to guess a randomly selected number from 1 to 10 until they get it right.
+   Concepts: while loop, conditionals, random number, counter, try/except, f-strings.
+
+EXACT MAIN MENU TEXT
+===== PERSONAL MINI-TOOLKIT =====
+1. To-Do List
+2. Simple Calculator
+3. Number Guessing Game
+4. Quit
+Choose an option (1-4):
+
+WELCOME AND GOODBYE
+Welcome to your Personal Mini-Toolkit!
+Thanks for using the Personal Mini-Toolkit. Have a great day!
+
+INVALID CHOICE MESSAGE
+"[choice]" is not a valid menu choice. Please enter 1, 2, 3, or 4.
+
+PROGRAM FLOW
+The main while loop shows the menu repeatedly. if/elif/else routes each choice to its tool or quits. Each tool returns to the main menu when it finishes. Invalid input is handled with a friendly message rather than crashing.
